@@ -12,14 +12,12 @@ import re
 
 def checkout(cmd, text):
     result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, encoding='utf-8')
-    out = str((result.stdout).split('\n'))
-#    print(out)
-    out_res = re.sub(r'[_\=\.\:\//]',' ', out)
-#    print(out_res)
-    fin_res = out_res.translate(str.maketrans('', '', string.punctuation))
-    print(fin_res)
+    out = str((re.sub(r"[_\=\.\:\//]", ' ', result.stdout)).split('\n'))
+    #    print(out)
+    res_out = out.translate(str.maketrans('', '', string.punctuation))
+    print(res_out)
 
-    if result.returncode == 0 and text in fin_res:
+    if result.returncode == 0 and text in res_out:
         return True
     else:
         return False
