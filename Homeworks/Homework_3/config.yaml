@@ -1,0 +1,9 @@
+FOLDER_TST: /home/user/tst
+FOLDER_OUT: /home/user/out
+FOLDER_folder1: /home/user/folder1
+FOLDER_folder2: /home/user/folder2
+BAD_7z: /home/user/folder_bad_7z
+count: 5
+size: 2M
+type: zip
+
