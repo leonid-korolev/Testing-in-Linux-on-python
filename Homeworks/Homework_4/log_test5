@@ -1,0 +1,5 @@
+авг 07 03:08:36 userpc sshd[81005]: Accepted password for user2 from 127.0.0.1 port 43780 ssh2
+авг 07 03:08:36 userpc sshd[81005]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:36 userpc systemd-logind[709]: New session 1542 of user user2.
+авг 07 03:08:36 userpc systemd[1]: Started Session 1542 of User user2.
+авг 07 03:08:36 userpc snapd-desktop-i[78820]: Detected new session 1542 at /org/freedesktop/login1/session/_31542

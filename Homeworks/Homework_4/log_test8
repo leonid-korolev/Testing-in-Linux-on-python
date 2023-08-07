@@ -1,0 +1,6 @@
+авг 07 03:09:17 userpc sshd[82663]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:09:17 userpc systemd[1]: session-1581.scope: Deactivated successfully.
+авг 07 03:09:17 userpc systemd-logind[709]: Session 1581 logged out. Waiting for processes to exit.
+авг 07 03:09:17 userpc systemd-logind[709]: Removed session 1581.
+авг 07 03:09:17 userpc pycharm-community_pycharm-community.desktop[2103]: 2023-08-07 03:09:17,257 [20435851] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 16 >= 16
+авг 07 03:09:17 userpc pycharm-community_pycharm-community.desktop[2103]: 2023-08-07 03:09:17,258 [20435852] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 16 >= 16

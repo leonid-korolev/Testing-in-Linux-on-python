@@ -1,0 +1,24 @@
+авг 07 03:08:18 userpc sshd[80269]: Accepted password for user2 from 127.0.0.1 port 44962 ssh2
+авг 07 03:08:18 userpc sshd[80269]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:18 userpc systemd[1]: Started Session 1525 of User user2.
+авг 07 03:08:18 userpc systemd-logind[709]: New session 1525 of user user2.
+авг 07 03:08:18 userpc snapd-desktop-i[78820]: Detected new session 1525 at /org/freedesktop/login1/session/_31525
+авг 07 03:08:18 userpc sshd[80269]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:18 userpc systemd[1]: session-1525.scope: Deactivated successfully.
+авг 07 03:08:18 userpc systemd-logind[709]: Session 1525 logged out. Waiting for processes to exit.
+авг 07 03:08:18 userpc systemd-logind[709]: Removed session 1525.
+авг 07 03:08:19 userpc sshd[80313]: Accepted password for user2 from 127.0.0.1 port 44976 ssh2
+авг 07 03:08:19 userpc sshd[80313]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:19 userpc systemd-logind[709]: New session 1526 of user user2.
+авг 07 03:08:19 userpc systemd[1]: Started Session 1526 of User user2.
+авг 07 03:08:19 userpc snapd-desktop-i[78820]: Detected new session 1526 at /org/freedesktop/login1/session/_31526
+авг 07 03:08:20 userpc sshd[80313]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:20 userpc systemd[1]: session-1526.scope: Deactivated successfully.
+авг 07 03:08:20 userpc systemd[1]: session-1526.scope: Consumed 3.042s CPU time.
+авг 07 03:08:20 userpc systemd-logind[709]: Session 1526 logged out. Waiting for processes to exit.
+авг 07 03:08:20 userpc systemd-logind[709]: Removed session 1526.
+авг 07 03:08:21 userpc sshd[80357]: Accepted password for user2 from 127.0.0.1 port 44986 ssh2
+авг 07 03:08:21 userpc sshd[80357]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:21 userpc systemd-logind[709]: New session 1527 of user user2.
+авг 07 03:08:21 userpc snapd-desktop-i[78820]: Detected new session 1527 at /org/freedesktop/login1/session/_31527
+авг 07 03:08:21 userpc systemd[1]: Started Session 1527 of User user2.

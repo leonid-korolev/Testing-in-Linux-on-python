@@ -1,0 +1,44 @@
+авг 07 03:08:06 userpc sshd[79801]: Accepted password for user2 from 127.0.0.1 port 59526 ssh2
+авг 07 03:08:06 userpc sshd[79801]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:06 userpc systemd-logind[709]: New session 1515 of user user2.
+авг 07 03:08:06 userpc systemd[1]: Started Session 1515 of User user2.
+авг 07 03:08:06 userpc snapd-desktop-i[78820]: Detected new session 1515 at /org/freedesktop/login1/session/_31515
+авг 07 03:08:06 userpc sshd[79801]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:06 userpc systemd[1]: session-1515.scope: Deactivated successfully.
+авг 07 03:08:06 userpc systemd-logind[709]: Session 1515 logged out. Waiting for processes to exit.
+авг 07 03:08:06 userpc systemd-logind[709]: Removed session 1515.
+авг 07 03:08:06 userpc sshd[79846]: Accepted password for user2 from 127.0.0.1 port 59834 ssh2
+авг 07 03:08:06 userpc sshd[79846]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:06 userpc systemd-logind[709]: New session 1516 of user user2.
+авг 07 03:08:06 userpc systemd[1]: Started Session 1516 of User user2.
+авг 07 03:08:06 userpc snapd-desktop-i[78820]: Detected new session 1516 at /org/freedesktop/login1/session/_31516
+авг 07 03:08:07 userpc sshd[79846]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:07 userpc systemd[1]: session-1516.scope: Deactivated successfully.
+авг 07 03:08:07 userpc systemd-logind[709]: Session 1516 logged out. Waiting for processes to exit.
+авг 07 03:08:07 userpc dbus-daemon[78658]: [session uid=1001 pid=78658] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.7' (uid=1001 pid=78726 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+авг 07 03:08:07 userpc systemd[78639]: Starting Tracker metadata extractor...
+авг 07 03:08:07 userpc systemd-logind[709]: Removed session 1516.
+авг 07 03:08:07 userpc dbus-daemon[78658]: [session uid=1001 pid=78658] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+авг 07 03:08:07 userpc systemd[78639]: Started Tracker metadata extractor.
+авг 07 03:08:07 userpc sshd[79889]: Accepted password for user2 from 127.0.0.1 port 59842 ssh2
+авг 07 03:08:07 userpc sshd[79889]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:07 userpc systemd[1]: Started Session 1517 of User user2.
+авг 07 03:08:07 userpc systemd-logind[709]: New session 1517 of user user2.
+авг 07 03:08:07 userpc snapd-desktop-i[78820]: Detected new session 1517 at /org/freedesktop/login1/session/_31517
+авг 07 03:08:08 userpc sudo[79936]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+авг 07 03:08:08 userpc sudo[79936]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+авг 07 03:08:10 userpc sudo[79936]: pam_unix(sudo:session): session closed for user root
+авг 07 03:08:10 userpc sshd[79889]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:10 userpc systemd[1]: session-1517.scope: Deactivated successfully.
+авг 07 03:08:10 userpc systemd[1]: session-1517.scope: Consumed 1.255s CPU time.
+авг 07 03:08:10 userpc systemd-logind[709]: Session 1517 logged out. Waiting for processes to exit.
+авг 07 03:08:10 userpc systemd-logind[709]: Removed session 1517.
+авг 07 03:08:11 userpc sshd[79969]: Accepted password for user2 from 127.0.0.1 port 59844 ssh2
+авг 07 03:08:11 userpc sshd[79969]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:11 userpc systemd-logind[709]: New session 1518 of user user2.
+авг 07 03:08:11 userpc systemd[1]: Started Session 1518 of User user2.
+авг 07 03:08:11 userpc snapd-desktop-i[78820]: Detected new session 1518 at /org/freedesktop/login1/session/_31518
+авг 07 03:08:11 userpc dbus-daemon[690]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+авг 07 03:08:11 userpc sudo[80010]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+авг 07 03:08:11 userpc sudo[80010]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+авг 07 03:08:11 userpc sudo[80010]: pam_unix(sudo:session): session closed for user root

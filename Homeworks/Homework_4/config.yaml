@@ -1,0 +1,15 @@
+FOLDER_TST: /home/user2/tst
+FOLDER_OUT: /home/user2/out
+FOLDER_folder1: /home/user2/folder1
+FOLDER_folder2: /home/user2/folder2
+BAD_7z: /home/user2/folder_bad_7z
+count: 5
+size: 2M
+
+host: 0.0.0.0
+user: user2
+password: "11"
+local_path: /home/user/p7zip-full.deb
+remote_path: /home/user2/p7zip-full.deb
+pkgname: p7zip-full
+type: 7z

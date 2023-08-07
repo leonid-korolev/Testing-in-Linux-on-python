@@ -1,0 +1,56 @@
+авг 07 03:08:45 userpc sshd[81352]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:45 userpc systemd[1]: session-1550.scope: Deactivated successfully.
+авг 07 03:08:45 userpc systemd-logind[709]: Session 1550 logged out. Waiting for processes to exit.
+авг 07 03:08:45 userpc systemd-logind[709]: Removed session 1550.
+авг 07 03:08:45 userpc sshd[81394]: Accepted password for user2 from 127.0.0.1 port 44760 ssh2
+авг 07 03:08:45 userpc sshd[81394]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:45 userpc systemd-logind[709]: New session 1551 of user user2.
+авг 07 03:08:45 userpc systemd[1]: Started Session 1551 of User user2.
+авг 07 03:08:45 userpc snapd-desktop-i[78820]: Detected new session 1551 at /org/freedesktop/login1/session/_31551
+авг 07 03:08:47 userpc sshd[81394]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:47 userpc systemd[1]: session-1551.scope: Deactivated successfully.
+авг 07 03:08:47 userpc systemd[1]: session-1551.scope: Consumed 3.086s CPU time.
+авг 07 03:08:47 userpc systemd-logind[709]: Session 1551 logged out. Waiting for processes to exit.
+авг 07 03:08:47 userpc systemd-logind[709]: Removed session 1551.
+авг 07 03:08:48 userpc sshd[81438]: Accepted password for user2 from 127.0.0.1 port 53538 ssh2
+авг 07 03:08:48 userpc sshd[81438]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:48 userpc systemd-logind[709]: New session 1552 of user user2.
+авг 07 03:08:48 userpc systemd[1]: Started Session 1552 of User user2.
+авг 07 03:08:48 userpc snapd-desktop-i[78820]: Detected new session 1552 at /org/freedesktop/login1/session/_31552
+авг 07 03:08:48 userpc sshd[81438]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:48 userpc systemd[1]: session-1552.scope: Deactivated successfully.
+авг 07 03:08:48 userpc systemd-logind[709]: Session 1552 logged out. Waiting for processes to exit.
+авг 07 03:08:48 userpc systemd-logind[709]: Removed session 1552.
+авг 07 03:08:48 userpc sshd[81479]: Accepted password for user2 from 127.0.0.1 port 53550 ssh2
+авг 07 03:08:48 userpc sshd[81479]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:49 userpc systemd[1]: Started Session 1553 of User user2.
+авг 07 03:08:49 userpc systemd-logind[709]: New session 1553 of user user2.
+авг 07 03:08:49 userpc snapd-desktop-i[78820]: Detected new session 1553 at /org/freedesktop/login1/session/_31553
+авг 07 03:08:49 userpc sshd[81479]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:49 userpc systemd[1]: session-1553.scope: Deactivated successfully.
+авг 07 03:08:49 userpc systemd-logind[709]: Session 1553 logged out. Waiting for processes to exit.
+авг 07 03:08:49 userpc systemd-logind[709]: Removed session 1553.
+авг 07 03:08:49 userpc sshd[81522]: Accepted password for user2 from 127.0.0.1 port 53554 ssh2
+авг 07 03:08:49 userpc sshd[81522]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:50 userpc systemd-logind[709]: New session 1554 of user user2.
+авг 07 03:08:50 userpc systemd[1]: Started Session 1554 of User user2.
+авг 07 03:08:50 userpc snapd-desktop-i[78820]: Detected new session 1554 at /org/freedesktop/login1/session/_31554
+авг 07 03:08:50 userpc sshd[81522]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:50 userpc systemd[1]: session-1554.scope: Deactivated successfully.
+авг 07 03:08:50 userpc systemd-logind[709]: Session 1554 logged out. Waiting for processes to exit.
+авг 07 03:08:50 userpc systemd-logind[709]: Removed session 1554.
+авг 07 03:08:50 userpc sshd[81564]: Accepted password for user2 from 127.0.0.1 port 53558 ssh2
+авг 07 03:08:50 userpc sshd[81564]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:51 userpc systemd-logind[709]: New session 1555 of user user2.
+авг 07 03:08:51 userpc systemd[1]: Started Session 1555 of User user2.
+авг 07 03:08:51 userpc snapd-desktop-i[78820]: Detected new session 1555 at /org/freedesktop/login1/session/_31555
+авг 07 03:08:51 userpc sshd[81564]: pam_unix(sshd:session): session closed for user user2
+авг 07 03:08:51 userpc systemd[1]: session-1555.scope: Deactivated successfully.
+авг 07 03:08:51 userpc systemd-logind[709]: Session 1555 logged out. Waiting for processes to exit.
+авг 07 03:08:51 userpc systemd-logind[709]: Removed session 1555.
+авг 07 03:08:51 userpc sshd[81605]: Accepted password for user2 from 127.0.0.1 port 53564 ssh2
+авг 07 03:08:51 userpc sshd[81605]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 07 03:08:51 userpc systemd-logind[709]: New session 1556 of user user2.
+авг 07 03:08:51 userpc systemd[1]: Started Session 1556 of User user2.
+авг 07 03:08:51 userpc snapd-desktop-i[78820]: Detected new session 1556 at /org/freedesktop/login1/session/_31556
+авг 07 03:08:52 userpc sshd[81605]: pam_unix(sshd:session): session closed for user user2
